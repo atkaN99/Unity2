@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5d724f6b325db4b93d8dd3e40cff11, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Character
+  dataArray:
+  - id: 10101
+    name: "\uC138\uB9AC\uC544"
+    title: "\uC5EC\uC790"
+    image: hi
+    description: "\uACF5\uC8FC"
+  - id: 20101
+    name: "\uAC00\uB2C8\uC5B4"
+    title: "\uC7A5\uAC11"
+    image: iron
+    description: Lv.10
+  - id: 20102
+    name: "\uC571\uC194\uB7A9\uC2A4 \uB9AC\uBCA4\uC9C0\uAC00\uC988"
+    title: "\uC7A5\uAC11"
+    image: bronze
+    description: Lv.160
+  - id: 20103
+    name: "\uC544\uCF00\uC778\uC170\uC774\uB4DC \uAC00\uC988"
+    title: "\uC7A5\uAC11"
+    image: silver
+    description: Lv.200
+  - id: 20104
+    name: "\uC81C\uB124\uC2DC\uC2A4 \uAC00\uC988"
+    title: "\uC7A5\uAC11"
+    image: gold
+    description: Lv.200
+  - id: 20105
+    name: "\uB370\uC2A4\uD2F0\uB2C8 \uAC00\uC988"
+    title: "\uC7A5\uAC11"
+    image: dia
+    description: Lv.250
